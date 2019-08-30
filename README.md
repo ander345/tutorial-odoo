@@ -1,4 +1,4 @@
-Curso-Taller Odoo v8.0 
+Curso-Taller Odoo v8.0
 ======================
 
 [TOC]
