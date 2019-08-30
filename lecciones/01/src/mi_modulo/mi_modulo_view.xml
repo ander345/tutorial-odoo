@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<openerp>
+<data>
+    <record model="ir.ui.view" id="mi_tabla_form">
+        <field name="model">mi_modulo.mi_tabla</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                 <field name="name"/>
+                 <field name="description"/>
+                </group>
+            </form>
+      </field>
+    </record>
+    <record model="ir.ui.view" id="mi_tabla_tree">
+        <field name="model">mi_modulo.mi_tabla</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="description"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="mi_tabla_action">
+        <field name="name">Tabla</field>
+        <field name="res_model">mi_modulo.mi_tabla</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="menu_root" name="Mi Módulo"/>
+    <menuitem id="menu_mi_modulo" name="Mi Módulo" parent="menu_root"/>
+    <menuitem id="menu_mi_modulo_mi_tabla" parent="menu_mi_modulo" name="Mi Tabla" action="mi_tabla_action"/>
+</data>
+</openerp>
