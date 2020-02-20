@@ -110,3 +110,4 @@ Al final de cada lección existe un ejercicio propuesto el cual le ayudará a af
 ## Ejercicio Propuesto
 
 Explore la instalación de Odoo que realizó en las secciones anteriores y familiarícese con la interfaz y los diferentes elementos de la misma (menús, formularios, busquedas, listados, etc)
+
